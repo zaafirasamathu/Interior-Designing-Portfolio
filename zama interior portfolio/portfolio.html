@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Zaafira A's Portfolio</h1>
+      <b><p>Interior Design Projects</p></b>
+    </div>
+  </header>
+  <nav>
+    <ul class="nav-menu">
+      <li><a href="index.html">Back to Home</a></li>
+    </ul>
+  </nav>
+  <main>
+    <section>
+      <h2>Portfolio Projects</h2>
+      <div class="portfolio-gallery">
+        <!-- Display only four images and their names -->
+        <div class="portfolio-item">
+          <img src="image1.jpg" alt="Functional TV Unit Design" class="zoomable-image">
+          <p>Functional TV Unit Design</p>
+        </div>
+        <div class="portfolio-item">
+          <img src="image2.jpg" alt="Cozy Wooden-Finish Bedroom Design" class="zoomable-image">
+          <p>Cozy Wooden-Finish Bedroom Design</p>
+        </div>
+        <div class="portfolio-item">
+          <img src="image3.jpg" alt="Elegant Shower Space Design" class="zoomable-image">
+          <p>Elegant Shower Space Design</p>
+        </div>
+        <div class="portfolio-item">
+          <img src="image4.jpg" alt="Simple Living Room Sketch" class="zoomable-image">
+          <p>Simple Living Room Sketch</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Modal for Zooming -->
+  <div id="zoom-modal" class="zoom-modal">
+    <span class="close">&times;</span>
+    <img class="zoom-modal-content" id="zoomed-image">
+    <div id="caption"></div>
+  </div>
+
+  <footer>
+    <p>© 2025 Zaafira A. All rights reserved.</p>
+  </footer>
+  <script src="portfolio-script.js"></script>
+</body>
+</html>

@@ -1,0 +1,172 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: white;
+    background-color: #000000;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  header {
+    background: #98FF98;
+    color: black;
+    padding: 20px 0;
+  }
+  
+  header.introduction {
+    background: #ccffcc; /* Light green background */
+    color: black; /* Black text for contrast */
+    padding: 20px;
+    border-radius: 5px; /* Optional: Rounded corners for better design */
+}
+
+header.introduction h1 {
+    margin: 0;
+    font-size: 2.5em;
+    color: #006400; /* Dark green text for the title */
+}
+
+header.introduction p {
+    font-size: 1.2em;
+    color: black; /* Black text for paragraph */
+}
+  
+  /* Navigation Bar */
+.nav-menu {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    background: #2e8b57; /* Dark Green background */
+    padding: 10px 0;
+    margin: 0;
+    color: white;
+    text-shadow: 2px 2px 4px black, -2px -2px 4px black, 2px -2px 4px black, -2px 2px 4px black;
+}
+  
+/* Navigation Menu Items */
+.nav-menu li {
+    margin: 0 15px;
+}
+  
+/* Navigation Links */
+.nav-menu a {
+    color: white; /* White color for text */
+    text-decoration: none;
+    font-weight: bold;
+}
+  
+/* Hover effect for the links */
+.nav-menu a:hover {
+    color: #66cdaa; /* Medium Sea Green for the hover effect */
+    text-decoration: underline;
+}
+
+  
+  main {
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 20px;
+  }
+  .Introduction, .skills-container, .contact-container {
+    background: #98FF98;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    color: black;
+  }
+  
+  .project, .skills-container, .contact-container {
+    background: #98FF98;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    color: black;
+  }
+  
+  /* Portfolio Gallery Styles */
+  .portfolio-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .portfolio-item {
+    text-align: center;
+  }
+  
+  .portfolio-gallery img {
+    max-width: 100%;
+    max-height: 300px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  .portfolio-gallery img:hover {
+    transform: scale(1.05);
+  }
+  
+  .portfolio-item p {
+    margin-top: 10px;
+    font-weight: bold;
+    color: white;
+    font-size: 1.1em;
+  }
+  
+  /* Zoom Modal Styles */
+  .zoom-modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.9);
+  }
+  
+  .zoom-modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+  }
+  
+  .close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  #caption {
+    margin: 15px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+  }
+  
